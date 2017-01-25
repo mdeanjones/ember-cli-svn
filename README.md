@@ -3,5 +3,5 @@ This Ember-CLI plugin lets Ember addons defined in your package file using subve
 
 ## Installation
 ```
-npm install --save-dev ember-cli-svn
+TODO
 ```
