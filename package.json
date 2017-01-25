@@ -1,6 +1,30 @@
 {
   "name": "ember-cli-svn",
+  "version": "1.0.0",
+  "description": "",
   "keywords": [
-    "ember-addon"
-  ]
+    "ember-addon",
+    "ember",
+    "ember-cli",
+    "subversion",
+    "svn"
+  ],
+  "bugs": {
+    "url": "https://github.com/mdeanjones/ember-cli-svn/issues"
+  },
+  "license": "MIT",
+  "author": "M. Dean Jones",
+  "directories": {
+    "test": "tests"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mdeanjones/ember-cli-svn.git"
+  },
+  "engines": {
+    "node": ">= 0.12"
+  }
 }
