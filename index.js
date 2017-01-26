@@ -21,6 +21,6 @@ module.exports = {
     this.pkg = this.pkg || {};
     this.pkg.dependencies = dependencies;
 
-    return {};
+    return dependencies;
   },
 };
