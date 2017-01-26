@@ -5,6 +5,7 @@ ember-cli-svn
 
 
 > Yes it is very old hat, but sometimes you just can't avoid Subversion.
+
 _- Me, just now_
 
 There are several tools that allow you to define SVN dependencies in your package, which is great, but Ember-CLI
