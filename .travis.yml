@@ -11,6 +11,12 @@ cache:
   directories:
     - $HOME/.npm
 
+matrix:
+  fast_finish: true
+
+before_install:
+  - "npm install -g npm@^4"
+
 install:
   - npm install
 
