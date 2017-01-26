@@ -17,6 +17,11 @@
   "directories": {
     "test": "tests"
   },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "mocha tests/**/*-test-node.js"
+  },
   "files": [
     "index.js"
   ],

@@ -1,0 +1,11 @@
+{
+  "name": "with-svn-dependencies",
+  "private": true,
+  "devDependencies": {
+    "loader.js": "latest"
+  },
+  "svnDependencies": {
+    "addon-one": "path/to/resource",
+    "addon-two@1.2.3": "path/to/resource"
+  }
+}
