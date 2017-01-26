@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-svn",
   "version": "1.0.0",
-  "description": "",
+  "description": "Legacy SVN support for Ember CLI addons",
   "keywords": [
     "ember-addon",
     "ember",

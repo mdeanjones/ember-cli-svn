@@ -1,9 +1,17 @@
 # ember-cli-svn
+--------------------------------------------------
+
 [![Build Status](https://travis-ci.org/mdeanjones/ember-cli-svn.svg?branch=master)](https://travis-ci.org/mdeanjones/ember-cli-svn)
 
-This Ember-CLI plugin lets Ember addons defined in your package file using subversion tools such as `npm-svn` to be included into your build.
+
+Yes it is very old hat, but sometimes you just can't avoid Subversion. There are several tools that allow you to define
+SVN dependencies in your package, which is great, but Ember-CLI only inspects `dependencies` and `devDependencies` for
+addons that it should include in a build. This plugin aims to get around that by inspecting the parent application's
+package, and masquerading any `svnDependencies` as its own `dependencies`. It's not perfect, but - generally speaking -
+it seems to get the job done.
+
 
 ## Installation
 ```
-TODO
+npm install --save-dev ember-cli-svn
 ```
