@@ -1,0 +1,18 @@
+---
+language: node_js
+node_js:
+  - "4"
+  - "6"
+  - "7"
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.npm
+
+install:
+  - npm install
+
+script:
+ - mocha tests/**/*-test-node.js
