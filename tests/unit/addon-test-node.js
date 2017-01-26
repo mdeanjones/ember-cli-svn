@@ -1,3 +1,5 @@
+'use strict';
+
 const expect = require('chai').expect;
 const MockCLI = require('../helpers/mock-cli');
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
