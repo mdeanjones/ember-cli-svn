@@ -15,4 +15,4 @@ install:
   - npm install
 
 script:
- - mocha tests/**/*-test-node.js
+ - npm test
